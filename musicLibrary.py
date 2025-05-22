@@ -1,0 +1,93 @@
+music = {
+    # Top 10 Most Viewed (Billion+ views)
+    "vaste":"https://www.youtube.com/watch?v=BBAyRBTfsOU",
+    "siddharth":"https://www.youtube.com/watch?v=iSo9l950QLo",
+    "lahore": "https://www.youtube.com/watch?v=dzvNk4teJ9I",
+    "mile ho tum humko": "https://www.youtube.com/watch?v=uuBx8Q3H4lE",
+    "kar gayi chull": "https://www.youtube.com/watch?v=9F1vyQj8XHk",
+    "tum hi ho": "https://www.youtube.com/watch?v=YQHsXMglC9A",
+    "channa mereya": "https://www.youtube.com/watch?v=G2h7C4W7I4w",
+    "dilbar": "https://www.youtube.com/watch?v=YBPkIpkHnHQ",
+    "aankh marey": "https://www.youtube.com/watch?v=JbLqHwuiLco",
+    "genda phool": "https://www.youtube.com/watch?v=8LJmmCgA1z8",
+    "tere mast mast do nain": "https://www.youtube.com/watch?v=6W7oJtUN3kI",
+    "swag se swagat": "https://www.youtube.com/watch?v=VkD3uBQ9I5k",
+
+    # Bollywood Hits (500M+ views)
+    "nashe si chadh gayi": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+    "bekhayali": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "tera ban jaunga": "https://www.youtube.com/watch?v=5Eqb_-j3FDA",
+    "raabta": "https://www.youtube.com/watch?v=6g6g2mvItp4",
+    "ae dil hai mushkil": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "phir bhi tumko chaahunga": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "gerua": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "janam janam": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "bulleya": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "agar tum saath ho": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+
+    # Recent Hits (2020-2024)
+    "kesariya": "https://www.youtube.com/watch?v=W3zW4c_RFWY",
+    "naatu naatu": "https://www.youtube.com/watch?v=fo8BXv7uzEI",
+    "pasoori nu": "https://www.youtube.com/watch?v=5Eqb_-j3FDA",
+    "apna bana le": "https://www.youtube.com/watch?v=Wg2tTkzyWuY",
+    "besharam rang": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+# Romantic Hits
+    "tum se hi": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "tujhe kitna chahne lage": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "kaise hua": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "pehla pehla pyar": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "tum hi aana": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "tere bina": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "ishq wala love": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "jeene laga hoon": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "raatan lambiyan": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "shayad": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+
+    # Party Bangers
+    "dheeme dheeme": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "ghar more pardesiya": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "makhna": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "coca cola": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "urvashi": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "dil chori": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "slow motion": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "bom diggy diggy": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "hookah bar": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "party on my mind": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+
+    # Sad Songs
+    "tujhe yaad na meri aayi": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "channa ve": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "dard dilo ke": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "tum ho": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "hamari adhuri kahani": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "mera mann kehne laga": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "zara sa": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "jeena jeena": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "dard-e-dil": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "tum bin": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+
+    # Retro Classics
+    "tip tip barsa paani": "https://www.youtube.com/watch?v=0i2FgM8Ix9U",
+    "tu cheez badi hai mast mast": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "ek do teen": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "choli ke peeche": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "dhak dhak karne laga": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "akele hum akele tum": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "yeh kaali kaali aankhen": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "tan tana tan": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "kajra re": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "maar dala": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+
+    # 2023-2024 New Releases
+    "satranga": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "heeriye": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "nain ta heere": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "maan meri jaan": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "ram siya ram": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "pehle bhi main": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "arjan vailly": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "what jhumka": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "chaleya": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE",
+    "tum kya mile": "https://www.youtube.com/watch?v=5Fq9ZpLm1kE"
+    }
