@@ -11,7 +11,7 @@ import os
 import subprocess
 from tseries_data import app_mapping
 # pip install pocketsphinx
-
+#git test
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
 newsapi = "b09926aa379c4554869e6332cea79047"
@@ -61,8 +61,8 @@ def processCommand(c):
         webbrowser.open("https://facebook.com")
     # elif "open youtube" in c.lower():
     #     webbrowser.open("https://youtube.com")
-    elif "open linkedin" in c.lower():
-        webbrowser.open("https://linkedin.com")
+    # elif "open linkedin" in c.lower():
+    #     webbrowser.open("https://linkedin.com")
     elif "open chatgpt" in c.lower():
         webbrowser.open("https://chatgpt.com/")
     elif "open deepseek" in c.lower():
@@ -134,7 +134,7 @@ def open_application(app_name):
 
 
 if __name__ == "__main__":
-    speak("Hello hardvi....")
+    speak("Hello....")
     while True:
         # Listen for the wake word "Jarvis"
         # obtain audio from the microphone
