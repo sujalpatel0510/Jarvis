@@ -134,7 +134,7 @@ def open_application(app_name):
 
 
 if __name__ == "__main__":
-    speak("Hello sujal....")
+    speak("Hello....")
     r = sr.Recognizer()  # create single recognizer to reuse
 
     try:
