@@ -1,5 +1,5 @@
 app_mapping = {
-    "spotify": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.262.580.0_x64__zpdnekdrzrea0\\Spotify.exe.sig",
+    "spotify": "C:\\Users\\sujal\\AppData\\Roaming\\Spotify\\Spotify.exe",
     "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "notepad": "notepad.exe",
     "calculator": "calc.exe",
@@ -7,7 +7,7 @@ app_mapping = {
     "valorant": "C:\\Riot Games\\Riot Client\\RiotClientServices.exe",
     "discord": "C:\\Users\\sujal\\AppData\\Local\\Discord\\app-1.0.9003\\Discord.exe",
     "youtube": r'"C:\\Program Files (x86)\\Microsoft\Edge\\Application\\msedge_proxy.exe"  --profile-directory=Default --app-id=agimnkijcaahngcdmfeangaknmldooml --app-url=https://www.youtube.com/?feature=ytca --app-launch-source=4',
-    "whatsapp": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2517.4.0_x64__cv1g1gvanyjgm\\WhatsApp.exe",
+    "whatsapp": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2546.3.0_x64__cv1g1gvanyjgm\\WhatsApp.exe",
     "firefox": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
     "bluestacks": "C:\\Program Files (x86)\\BlueStacks\\Bluestacks.exe",
     "telegram": "C:\\Users\\sujal\\AppData\\Local\\Telegram Desktop\\Telegram.exe",
@@ -30,6 +30,8 @@ app_mapping = {
     "notepad++": "C:\\Program Files (x86)\\Notepad++\\notepad++.exe",
     "notepad++_x64": "C:\\Program Files\\Notepad++\\notepad++.exe",
     "code_x64": "C:\\Users\\sujal\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
-
+    "linkedin":"C:\\Program Files\\WindowsApps\\7EE7776C.LinkedInforWindows_3.0.42.0_x64__w1wdnht996qgy\\LinkedIn.exe",
+    "notion":"C:\\Users\\sujal\\AppData\\Local\\Programs\\Notion.exe",
+    "perplexity":"C:\\Users\\sujal\\AppData\\Local\\Programs\\Perplexity\\Perplexity.exe"
     # Add more apps with their paths
 }

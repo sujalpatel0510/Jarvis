@@ -134,29 +134,79 @@ def open_application(app_name):
 
 
 if __name__ == "__main__":
-    speak("Hello....")
-    while True:
-        # Listen for the wake word "Jarvis"
-        # obtain audio from the microphone
-        r = sr.Recognizer()
-         
-        print("recognizing...")
+    speak("Hello sujal....")
+    r = sr.Recognizer()  # create single recognizer to reuse
+
+    try:
+        while True:
+            # Listen for the wake word "Jarvis"
+            print("recognizing...")
+            try:
+                # Use microphone and adapt to ambient noise first
+                with sr.Microphone(device_index=2) as source:   # try built-in mic first
+                    # Calibrate for ambient noise (short duration)
+                    r.adjust_for_ambient_noise(source, duration=0.5)
+                    print("Listening for wake word... (say 'Jarvis')")
+                    try:
+                        audio = r.listen(source, timeout=5, phrase_time_limit=3)
+                    except sr.WaitTimeoutError:
+                        # No speech within timeout — restart loop
+                        print("No speech detected while waiting for wake word.")
+                        continue
+
+                # try to recognize the wake word
+                try:
+                    word = r.recognize_google(audio)
+                    print("Heard (wake):", word)
+                except sr.UnknownValueError:
+                    # Speech was unintelligible
+                    print("Couldn't understand wake word audio.")
+                    continue
+                except sr.RequestError as e:
+                    print("Speech recognition service error:", e)
+                    continue
+
+                # If wake word matched, listen for the command
+                if word.strip().lower() == "jarvis":
+                    speak("Yes?")
+                    with sr.Microphone(device_index=2) as source:
+                        r.adjust_for_ambient_noise(source, duration=0.3)
+                        print("Jarvis Active... listening for command")
+                        try:
+                            audio_cmd = r.listen(source, timeout=6, phrase_time_limit=8)
+                        except sr.WaitTimeoutError:
+                            print("No command heard, going back to wake-listen.")
+                            continue
+
+                    try:
+                        command = r.recognize_google(audio_cmd)
+                        print("Command:", command)
+                        # Process command (use your existing function)
+                        processCommand(command)
+                    except sr.UnknownValueError:
+                        print("Couldn't understand the command.")
+                        speak("Sorry, I didn't catch that.")
+                        continue
+                    except sr.RequestError as e:
+                        print("Speech service error:", e)
+                        speak("Speech service error.")
+                        continue
+
+            except KeyboardInterrupt:
+                print("Interrupted by user. Exiting.")
+                break
+            except Exception as e:
+                # Catch-all so your program won't crash quietly
+                print("Error:", e)
+                # small delay to avoid tight error loop
+                import time
+                time.sleep(0.5)
+                continue
+
+    finally:
+        # Clean up resources if needed
         try:
-            with sr.Microphone() as source:
-                print("Listening...")
-                audio = r.listen(source, timeout=4, phrase_time_limit=2)
-            word = r.recognize_google(audio)
-            if(word.lower() == "jarvis"):
-                speak("Ya")
-                # Listen for command
-                with sr.Microphone() as source:
-                    print("Jarvis Active...")
-                    audio = r.listen(source)
-                    command = r.recognize_google(audio)
-                    print(command)
-
-                    processCommand(command)
-
-
-        except Exception as e:
-            print("Error; {0}".format(e))
+            pygame.mixer.quit()
+        except Exception:
+            pass
+        print("Program ended.")
